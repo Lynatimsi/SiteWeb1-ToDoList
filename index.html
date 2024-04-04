@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>TO-DO List</title>
+    <link rel="stylesheet" href="app.css" />
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="intro">
+                <h1> To-Do Liste</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="helpText">
+                <p id="first">Entrez le texte pour ajouter des éléments à votre liste.</p>
+                <p id="second">Cliquez sur l'élément pour le marquer comme terminé</p>
+                <p id="third">Cliquez sur X pour enlever l'élément de votre liste</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div>
+                <input class="tasksInput" id="userInput" type="text" placeholder="Nouvelle tâche..." maxlength="27">
+                <button class="buttons" id="enter">ajouter</button>
+            </div>
+        </div>
+
+        <!-- Empty List -->
+        <div class="row">
+            <div class="listItems">
+                <ul id="userList">
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
